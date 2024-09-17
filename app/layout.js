@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import '../public/assets/style.css'
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -20,6 +21,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+    <meta charSet="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MATA LAW</title>
+   
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
