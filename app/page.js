@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
 
-      <Header/>
+      <Header loadDataPageWise={ <><p className="p-1">LEAVE COURT TO US</p><h1>Your Initial <br /> Consultation <br /> with A Lawyer Is Free.</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo harum voluptatibus deserunt molestiae? Officiis<br /> ipsam et ea incidunt id tempora iusto labore, fugit libero quisquam odio aperiam, sequi nemo. Dolore.</p><button className="hero-btn">LEARN MORE</button></>}/>
   
     <section className="about">
       <div className="container">
